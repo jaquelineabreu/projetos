@@ -20,11 +20,11 @@ func main(){
 	fmt.Println("O comando escolhido foi", comando)
 
 	if comando == 1 {
-		
+		fmt.Println("Monitorando...")		
 	}else if comando == 2 {
-		
+		fmt.Println("Exibindo logs...")				
 	}else if comando == 0 {
-		
+		fmt.Println("Saindo do programa")
 	}else{
 		fmt.Println("Não conheço este comando")
 	}
