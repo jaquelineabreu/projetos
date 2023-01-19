@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"io/ioutil"
 	"net/http"
 	"os"
 	"time"
@@ -96,11 +97,12 @@ func testaSite(site string){
 func lerSitesDoArquivo()[]string{
 	var sites []string
 
-	arquivo, err := os.Open("site.txt")
+	//arquivo, err := os.Open("sites.txt")
+	arquivo, err  := ioutil.ReadFile("sites.txt")
 
 	if err != nil{
 		fmt.Println("Ocorreu um erro:", err)
 	}
-	fmt.Println(arquivo)
+	fmt.Println(string(arquivo))
 	return sites
 }
