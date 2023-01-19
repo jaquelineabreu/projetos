@@ -1,8 +1,8 @@
 package main
 
 import (
+	"bufio"
 	"fmt"
-	"io/ioutil"
 	"net/http"
 	"os"
 	"time"
@@ -97,12 +97,22 @@ func testaSite(site string){
 func lerSitesDoArquivo()[]string{
 	var sites []string
 
-	//arquivo, err := os.Open("sites.txt")
-	arquivo, err  := ioutil.ReadFile("sites.txt")
+	arquivo, err := os.Open("sites.txt")
 
 	if err != nil{
 		fmt.Println("Ocorreu um erro:", err)
 	}
-	fmt.Println(string(arquivo))
+
+
+	leitor := bufio.NewReader(arquivo)
+
+	linha, err := leitor.ReadString('\n')
+
+	if err != nil{
+		fmt.Println("Ocorreu um erro:", err)
+	}
+
+	fmt.Println(linha)
+	
 	return sites
 }
