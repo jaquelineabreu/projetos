@@ -1,31 +1,12 @@
-https://www.caelum.com.br- online: true
-https://www.casadocodigo.com.br- online: true
-https://www.alura.com.br- online: true
-https://random-status-code.herokuapp.com- online: false
-https://www.caelum.com.br- online: true
-https://www.casadocodigo.com.br- online: true
-https://www.alura.com.br- online: true
-https://random-status-code.herokuapp.com- online: false
-https://www.caelum.com.br- online: true
-https://www.casadocodigo.com.br- online: true
-https://www.alura.com.br- online: true
-https://random-status-code.herokuapp.com- online: false
-https://www.caelum.com.br- online: true
-https://www.casadocodigo.com.br- online: true
-19/01/2023 22:44:27 - site-falso- online: false
-19/01/2023 22:44:29 - https://www.alura.com.br- online: true
-19/01/2023 22:44:31 - https://random-status-code.herokuapp.com- online: false
-19/01/2023 22:44:32 - https://www.caelum.com.br- online: true
-19/01/2023 22:44:32 - https://www.casadocodigo.com.br- online: true
-19/01/2023 22:44:37 - https://www.alura.com.br- online: true
-19/01/2023 22:44:38 - https://random-status-code.herokuapp.com- online: false
-19/01/2023 22:44:38 - https://www.caelum.com.br- online: true
-19/01/2023 22:44:39 - https://www.casadocodigo.com.br- online: true
-19/01/2023 22:44:44 - https://www.alura.com.br- online: true
-19/01/2023 22:44:45 - https://random-status-code.herokuapp.com- online: false
-19/01/2023 22:44:45 - https://www.caelum.com.br- online: true
-19/01/2023 22:44:45 - https://www.casadocodigo.com.br- online: true
-19/01/2023 22:44:50 - https://www.alura.com.br- online: true
-19/01/2023 22:44:51 - https://random-status-code.herokuapp.com- online: false
-19/01/2023 22:44:51 - https://www.caelum.com.br- online: true
-19/01/2023 22:44:51 - https://www.casadocodigo.com.br- online: true
+19/01/2023 22:52:23 - https://www.alura.com.br- online: true
+19/01/2023 22:52:25 - https://random-status-code.herokuapp.com- online: false
+19/01/2023 22:52:25 - https://www.caelum.com.br- online: true
+19/01/2023 22:52:26 - https://www.casadocodigo.com.br- online: true
+19/01/2023 22:52:31 - https://www.alura.com.br- online: true
+19/01/2023 22:52:32 - https://random-status-code.herokuapp.com- online: false
+19/01/2023 22:52:32 - https://www.caelum.com.br- online: true
+19/01/2023 22:52:32 - https://www.casadocodigo.com.br- online: true
+19/01/2023 22:52:37 - https://www.alura.com.br- online: true
+19/01/2023 22:52:38 - https://random-status-code.herokuapp.com- online: false
+19/01/2023 22:52:38 - https://www.caelum.com.br- online: true
+19/01/2023 22:52:39 - https://www.casadocodigo.com.br- online: true
