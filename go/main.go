@@ -3,19 +3,20 @@ package main
 import (
 	"bufio"
 	"fmt"
+	"io"
 	"net/http"
 	"os"
+	"strings"
 	"time"
 )
 
-const monitoramentos = 3
+const monitoramentos = 4
 const delay = 5
 
 
 func main(){
 
 	exibeIntroducao()	
-	lerSitesDoArquivo()
 
 	for{
 		exibeMenu()
@@ -95,6 +96,7 @@ func testaSite(site string){
 }
 
 func lerSitesDoArquivo()[]string{
+
 	var sites []string
 
 	arquivo, err := os.Open("sites.txt")
@@ -103,16 +105,23 @@ func lerSitesDoArquivo()[]string{
 		fmt.Println("Ocorreu um erro:", err)
 	}
 
-
 	leitor := bufio.NewReader(arquivo)
 
-	linha, err := leitor.ReadString('\n')
+	for{
 
-	if err != nil{
-		fmt.Println("Ocorreu um erro:", err)
+		linha, err := leitor.ReadString('\n')
+
+		linha = strings.TrimSpace(linha)
+		
+		sites = append(sites, linha)
+
+		if err == io.EOF{
+			break
+		}
+	
 	}
 
-	fmt.Println(linha)
-	
+	arquivo.Close()
+
 	return sites
 }
